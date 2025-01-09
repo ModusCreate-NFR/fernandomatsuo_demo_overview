@@ -15,6 +15,7 @@ func main() {
 
 	AWS_SECRET := "md_asdasdasdasdasdasdasdasdasdasdasdasaesda"
 	SECRET_KEY := "github_pat_11ABKK2YQ0PhkoE9RIPmZV"
+	TEST_KEY := "internal_api_key_1234567"
 	
 	// URL to fetch
 	url := "https://jsonplaceholder.typicode.com/todos/1"
