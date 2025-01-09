@@ -11,7 +11,7 @@ namespace my_dotnet_app.Controllers
         [HttpGet]
         public IActionResult GetUser(string username)
         {
-            string query = $"SELECT * FROM Users WHERE Username = '{username}'";
+            string query = $"SELECT id FROM Users WHERE Username = '{username}'";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(query, connection);
